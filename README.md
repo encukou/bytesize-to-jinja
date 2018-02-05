@@ -3,12 +3,17 @@
 This is a simple tool to convert Dan Klammer's [Bytesize Icons] to a
 [Jinja2] macro.
 
-For convenience, the [output] is included in this repository.
+Bytesize Icons are tiny SVG-based icons intended to be embedded directly in
+HTML pages, and styled with CSS.
+
+Jinja2 is a popular templating engine for Python.
+
+For convenience, the [resulting macro] is included in this repository.
 (It might be outdated, though – check the Bytesize site for updates.)
 
 [Bytesize Icons]: https://danklammer.com/bytesize-icons/
 [Jinja2]: http://jinja.pocoo.org
-[output]: bytesize_icons.jinja
+[resulting macro]: bytesize_icons.jinja
 
 
 ## Using the Icons
@@ -35,6 +40,11 @@ Or, do the steps manually:
 
 - Download `bytesize-symbols.svg` from https://github.com/danklammer/bytesize-icons
 - Run `./bytesize-to-jinja.py < bytesize-symbols.svg`
+
+If you did this because the included macro is outdated, consider sending
+a pull request for [bytesize-to-jinja]. Thanks!
+
+[bytesize-to-jinja]: https://github.com/encukou/bytesize-to-jinja
 
 
 ## License
