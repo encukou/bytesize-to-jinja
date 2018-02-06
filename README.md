@@ -18,13 +18,15 @@ For convenience, the [resulting macro] is included in this repository.
 
 ## Using the Icons
 
-In your Jinja template, import the macro and use it:
+In your Jinja template, grab the [file with the macro], then import and use it:
 
 ```jinja
 {% from "bytesize_icons.jinja" import bytesize_icon %}
 
 {{ bytesize_icon('heart') }}
 ```
+
+[file with the macro]: bytesize_icons.jinja
 
 
 ## Running the Script
